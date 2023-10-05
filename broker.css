@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    
+    
+    }
+    
+    .head{
+    
+        font-family: Roboto, Arial;
+        font-size: 30px;
+        background-color: rgb(127, 245, 245);
+        color: black;
+       justify-content: center;
+        display: flex;
+        margin-top: 0;
+       
+       
+        height: 100px;
+    
+    }
+    
+    
+    
+    .head p{
+    margin-left: 50px;
+    line-height: 2px;
+    margin-top: 5px;
+    }
+    
+    .border{
+    
+        background-color:#232331;
+       
+    
+        padding-left: 50px;
+    
+        
+        height: 60px;
+        font-family: Roboto,Arial;
+        font-size: 20px;
+    
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px;
+        column-gap: 70px;
+        
+    }
+    
+     .grid div{
+        margin-top: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .middle{
+        font-family: Roboto,Arial;
+        font-size: 24px;
+        background-image: url(broker1.jfif) ;
+        background-size: 100%  500px;
+        background-repeat: no-repeat;
+        height: 500px;
+        margin-top: 10px;
+        margin-left: -45px;
+        margin-right:0 ;
+        padding-top: 20px;
+      
+    }

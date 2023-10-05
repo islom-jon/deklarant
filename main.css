@@ -1,0 +1,155 @@
+body{
+margin: 0;
+
+
+}
+
+.head{
+
+    font-family: Roboto, Arial;
+    font-size: 30px;
+    background-color: rgb(127, 245, 245);
+    color: black;
+   justify-content: center;
+    display: flex;
+    margin-top: 0;
+   
+   
+    height: 100px;
+
+}
+
+
+
+.head p{
+margin-left: 50px;
+line-height: 2px;
+margin-top: 5px;
+}
+
+.border{
+
+    background-color:#232331;
+   
+
+    padding-left: 50px;
+
+    
+    height: 60px;
+    font-family: Roboto,Arial;
+    font-size: 20px;
+
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    column-gap: 70px;
+    
+}
+
+ .grid div{
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid div:hover{
+color: rgb(79, 238, 79);
+
+cursor: pointer;
+transition: 0.5s;
+
+}
+
+
+.middle{
+    font-family: Roboto,Arial;
+    font-size: 24px;
+    background-image: url("logistics-5.png");
+    background-size: 100%  500px;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 0;  
+}
+.info{
+    line-height: 1px;
+    width: 400px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.comment1{
+    margin: 5px;
+    
+
+}
+
+.comment1 input{
+    width: 300px;
+}
+
+.comment{
+    width: 310px;
+    height: 100px;
+    
+}
+
+.button{
+    margin-left: 168px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+
+.bottoms {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    column-gap: 100px;
+    margin-top: -20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(82, 186, 228, 0.39);
+    padding-top: 20px;
+    font-family: Roboto, Arial;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-right:0;
+    border-left: 0;
+    border-style: solid;
+    border-color: coral;
+}
+
+.bottoms:hover{
+    background-color: rgb(218, 207, 207);
+    
+}
+
+.image{
+    width: 100px;
+ 
+}
+
+.image:hover{
+    width: 150px;
+    font-size: 30px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+
+.contacts{
+    background-color: antiquewhite;
+    font-family: Arial;
+    margin-bottom: 50 px;
+    padding-top: -30 px;
+}

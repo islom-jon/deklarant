@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-family: Roboto,Arial;
+    
+    }
+    
+    .head{
+    
+        font-family: Roboto, Arial;
+        font-size: 30px;
+        background-color: rgb(127, 245, 245);
+        color: black;
+       justify-content: center;
+        display: flex;
+        margin-top: 0;
+       
+       
+        height: 100px;
+    
+    }
+    
+    
+    
+    .head p{
+    margin-left: 50px;
+    line-height: 2px;
+    margin-top: 5px;
+    }
+    
+    .border{
+    
+        background-color:#232331;
+       
+   
+        padding-left: 50px;
+    
+    
+        height: 60px;
+        font-family: Roboto,Arial;
+        font-size: 20px;
+    
+    }
+    
+    
+    .grid{
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px;
+        column-gap: 70px;
+        
+    }
+    
+     .grid div{
+        margin-top: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .grid div:hover{
+    color: rgb(79, 238, 79);
+    
+    cursor: pointer;
+    transition: 0.5s;
+    
+    }
+    
+    .middle{
+        font-size: 13px;
+        line-height: 15px;
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+
+    h3 {
+        margin: 2px 2px;
+        
+    }
+    ul{
+        margin-top: 2px;
+    }
+    .middle-left{
+margin-left: 150px;
+background-color: #c2c2c5;
+
+    }
+    .middle-left:hover{
+        background-color: #d8d8db;
+        margin-top: -170px;
+    }
+
+    .img{
+        height:400px;
+        width: 400px;
+       margin-left: 150px;
+        position: fixed;
+    }
+
+    .middle-right{
+    }
